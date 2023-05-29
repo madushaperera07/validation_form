@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Quicksand:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin: 7rem;
+    background: #78CAD2;
+    color: #0B0033;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.container{
+    width: 650px;
+    padding: 30px;
+    background: whitesmoke;
+    border-radius: 15px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+}
+
+.container h1{
+    text-align: center;
+}
+
+form label{
+    display: inline-block;
+    width: 220px;
+}
+
+.container .input-row{
+    margin: 0.5rem;
+}
+
+.input-row input{
+    width: 330px;
+    margin: 5px;
+    background: whitesmoke;
+    padding: 10px;
+    border: 1px solid #0B0033;
+}
+
+.container button{
+    position: relative;
+    left: 40%;
+    padding: 5px 30px;
+    margin: 10px;
+    cursor: pointer;
+    color: whitesmoke;
+    background: #0B0033;
+    border-radius: 10px;
+}
+
+.container button:hover{
+    background: #78CAD2;
+    color: #0B0033;
+    border: 2px solid #78CAD2;
+    transition: all 0.3s ease-out;
+}
+
+label#fname-error {
+    color: red;
+    font-size: 10px;
+    margin-left: 14.4rem;
+}
+
+label#sname-error {
+    color: red;
+    font-size: 10px;
+    margin-left: 14.4rem;
+}
+
+label#email-error {
+    color: red;
+    font-size: 10px;
+    margin-left: 14.4rem;
+}
+
+label#password-error {
+    color: red;
+    font-size: 10px;
+    margin-left: 14.4rem;
+}
+
+label#confirmpassword-error {
+    color: red;
+    font-size: 10px;
+    margin-left: 14.4rem;
+}
+

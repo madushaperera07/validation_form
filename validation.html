@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="validation.css">
+    <script src="jquery-3.7.0.min.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+    <link href="jqueryui/jquery-ui.css" rel="stylesheet">
+    <script src="jqueryui/jquery-ui.js"></script>
+</head>
+<body>
+
+    <div id="container" class="container">
+        <h1>Registration Form</h1>
+        <form action="form" name="Registration" id="Registration">
+            <div class="input-row">
+            <label for="firstName">Enter Your First Name</label>
+            <input type="text" name="fname" id="fname" placeholder="First Name"/>
+            </div>
+            <div class="input-row">
+            <label for="secondName">Enter Your Second Name</label>
+            <input type="text" name="sname" id="sname" placeholder="Second Name"/>
+        </div>
+        <div class="input-row">
+            <label for="email">Enter Your Email</label>
+            <input type="email" name="email" id="email" placeholder="Your Email Address"/>
+        </div>
+        <div class="input-row">
+            <label for="password">Enter a Password</label>
+            <input type="password" name="password" id="password" placeholder="Your Password">
+        </div> 
+        <div class="input-row">
+            <label for="password">Confirm The Password</label>
+            <input type="password" name="confirmpassword" id="confirmpassword" placeholder="Your Password">
+        </div>  
+        <div>
+            <button type="submit">Register</button>
+        </div>
+        </form>
+    </div>
+
+    <script src="validation.js  "></script>
+    
+</body>
+</html>
